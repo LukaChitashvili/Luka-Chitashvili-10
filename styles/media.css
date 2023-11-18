@@ -33,11 +33,53 @@
     font-size: 20px;
     transition: all 0.3s ease-in-out;
   }
+
+  .up p {
+    width: 284px;
+    margin-top: 9px;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #636060;
+  }
+
+  .up h4 {
+    width: 160px;
+    margin-top: 33px;
+    font-family: Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #343232;
+  }
   .banner {
     width: 100%;
     transition: all 0.3s ease-in;
   }
+  h3 {
+    margin-left: -45px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .container {
+    flex-direction: column;
+    margin-left: 650px;
+    margin-top: 200px;
+    transition: all 0.3s ease-in-out;
+  }
   .up {
     flex-direction: column;
+    transition: all 0.3s ease-in-out;
+  }
+  .down {
+    margin-left: -600px;
+    margin-top: -150px;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
   }
 }
