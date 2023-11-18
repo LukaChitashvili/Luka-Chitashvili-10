@@ -152,8 +152,7 @@ section .h3 {
 
 .up img,
 .down img {
-  width: 100%;
-  height: auto;
+  margin-right: 33px;
 }
 .up p {
   width: 284px;
