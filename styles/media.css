@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     width: 40%;
-    height: 60vh;
+    height: 80vh;
     position: fixed;
     top: 0;
     right: -100%;
@@ -24,5 +24,20 @@
   }
   #check:checked ~ .menu {
     right: 0;
+  }
+  .banner h1 {
+    font-size: 40px;
+    transition: all 0.3s ease-in-out;
+  }
+  .banner h2 {
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  .banner {
+    width: 100%;
+    transition: all 0.3s ease-in;
+  }
+  .up {
+    flex-direction: column;
   }
 }
